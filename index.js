@@ -42,7 +42,7 @@ app.post("/login", authController.loginSubmit);
 // localhost:3001
 app.listen(3001, function () {
   console.log(
-    "Server running. Visit: localhost:3001/reminders in your browser 馃殌"
+    "Server running. Visit: localhost:3001/reminder in your browser 馃殌"
   );
 });
 
